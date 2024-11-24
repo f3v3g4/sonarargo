@@ -1,0 +1,6 @@
+resources:
+  - postgres/postgres-pvc.yaml
+  - postgres/postgres-deployment.yaml
+  - sonarqube/sonarqube-pvc.yaml
+  - sonarqube/sonarqube-deployment.yaml
+  - sonar-scanner/sonar-scanner-deployment.yaml
